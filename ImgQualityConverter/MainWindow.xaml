@@ -1,7 +1,7 @@
 ﻿<Window x:Class="ImgQualityConverter.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="274" Width="362">
+        Title="ImgQualityConverter" Height="274" Width="362">
     <Grid>
         <Label Content="模式" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="RadioIsConvertForSingleFile" Content="目录批量转换" HorizontalAlignment="Left" Margin="49,16,0,0" VerticalAlignment="Top" GroupName="ConvertMode" IsChecked="{Binding Path=IsConvertForMultiFile}"/>
